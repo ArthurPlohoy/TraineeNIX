@@ -8,24 +8,24 @@ include_once '../blogs/navigation.php'
 ?>
 <body>
 
-<div class="login-reg-box">
+<div class="login-box">
     <h2>Регистрация</h2>
     <form>
         <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Имя:</label>
+            <input type="text" name="" required="" placeholder="Имя:">
+            <label></label>
         </div>
         <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Фамилия:</label>
+            <input type="text" name="" required="" placeholder="Фамилия:">
+            <label></label>
         </div>
         <div class="user-box">
-            <input type="email" name="" required="">
-            <label>email: </label>
+            <input type="email" name="" required="" placeholder="email:">
+            <label> </label>
         </div>
         <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Пароль: </label>
+            <input type="password" name="" required="" placeholder="Пароль:">
+            <label> </label>
         </div>
         <a href="#">
             <span></span>

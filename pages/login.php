@@ -7,16 +7,16 @@ include_once ($_SERVER['DOCUMENT_ROOT'].'/blogs/navigation.php');
 <body>
 
 
-    <div class="login-reg-box">
+    <div class="login-box">
         <h2>Авторизация</h2>
         <form>
             <div class="user-box">
-                <input type="text" name="" required="">
-                <label>Имя пользователя: </label>
+                <input type="text" name="" required="" placeholder="Имя пользователя: ">
+                <label></label>
             </div>
             <div class="user-box">
-                <input type="password" name="" required="">
-                <label>Пароль: </label>
+                <input type="password" name="" required="" placeholder="Пароль: ">
+                <label></label>
             </div>
             <a href="#">
                 <span></span>
