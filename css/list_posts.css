@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+    color: #000000
+}
+
+/* Удалите поля и отступы из списка */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль элементов списка */
+ul li {
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+    /* сделайте элементы списка невыбираемыми */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Установить все нечетные элементы списка в другой цвет (зебра) */
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Более темный фон-цвет при наведении */
+ul li:hover {
+    background: #ddd;
+}
+
+/* При нажатии на кнопку, добавить цвет фона и вычеркнуть текст */
+ul li.checked {
+    background: #888;
+    color: #000000;
+    text-decoration: line-through;
+}
+
+/* Добавить "checked" отметить при нажатии на кнопку */
+ul li.checked::before {
+    color: #000000;
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Стиль кнопки "Закрыть" */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+    color: #000000;
+}
+
+/* Стиль заголовка */
+.header {
+    background: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+    padding: 30px 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Очистить поплавки после заголовка */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Стиль ввода */
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+/* Стиль кнопки "Добавить" */
+.addBtn {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: #03e9f4;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .3s;
+    letter-spacing: 6px
+}
+
+.addBtn:hover {
+    background: #03e9f4;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.footer {
+    color: #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    position: absolute;
+    padding-top: 2rem;
+    text-align:center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #476286;
+
+}
+.social-icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
