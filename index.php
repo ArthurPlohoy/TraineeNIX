@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Document</title>
 </head>
+
+
 <?php
 include_once ($_SERVER['DOCUMENT_ROOT'].'/blogs/navigation.php');
 ?>

@@ -1,4 +1,4 @@
-// Создайте кнопку "Закрыть" и добавьте ее к каждому элементу списка
+//Создайте кнопку "Закрыть" и добавьте ее к каждому элементу списка
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {

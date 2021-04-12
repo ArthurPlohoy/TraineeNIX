@@ -1,3 +1,7 @@
+<?php
+//require'db.php';
+//$user = R::findOne('users', 'id = ?', array($_SESSION['user']->id));
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/list_posts.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/forms.css">
+    <link rel="stylesheet" type="text/css" href="../css/buttons.css">
     <script src="../js/script.js"></script>
     <title>Document</title>
 </head>
